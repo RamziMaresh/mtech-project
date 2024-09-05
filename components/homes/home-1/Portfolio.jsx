@@ -59,7 +59,7 @@ export default function Portfolio() {
         className="works-grid work-grid-3 work-grid-gut-lg masonry"
         id="work-grid"
       >
-        {/* Work Item (Lightbox) */}
+        {/* Work Item (Lightbox) 
         <Gallery>
           {portfolios1.slice(0, 6).map((item, index) => (
             <li key={index} className={item.className}>
@@ -112,7 +112,7 @@ export default function Portfolio() {
               )}
             </li>
           ))}
-        </Gallery>
+        </Gallery>*/}
         {/* End Work Item */}
       </ul>
       {/* End Works Grid */}
