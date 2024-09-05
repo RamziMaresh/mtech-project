@@ -1,4 +1,3 @@
-import Portfolio from "@/components/homes/home-9/Portfolio";
 
 import { slickMultipages } from "@/data/menu";
 import Image from "next/image";
