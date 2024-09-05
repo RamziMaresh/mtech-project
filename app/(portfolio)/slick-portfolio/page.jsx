@@ -51,16 +51,7 @@ export default function SlickPortfolioPage() {
                 </div>
               </div>
             </section>
-            <section
-              className={`page-section  scrollSpysection  ${
-                dark ? "bg-dark-1 light-content" : ""
-              } `}
-              id="portfolio"
-            >
-              <div className="container position-relative">
-                <Portfolio />
-              </div>
-            </section>
+
 
             <section className="page-section pt-0">
               <div className="container">
