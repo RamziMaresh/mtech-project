@@ -1,5 +1,3 @@
-import Footer8 from "@/components/footers/Footer8";
-import Header9 from "@/components/headers/Header9";
 import Portfolio from "@/components/homes/home-9/Portfolio";
 
 import { slickMultipages } from "@/data/menu";
@@ -19,9 +17,7 @@ export default function SlickPortfolioPage() {
     <>
       <div className="theme-slick">
         <div className="page" id="top">
-          <nav className="main-nav transparent stick-fixed wow-menubar wch-unset">
-            <Header9 links={slickMultipages} />
-          </nav>
+
           <main id="main">
             <section
               className="page-section bg-gradient-gray-light-1 bg-scroll overflow-hidden"
@@ -114,7 +110,6 @@ export default function SlickPortfolioPage() {
                 alt=""
               />
             </div>
-            <Footer8 />
           </footer>
         </div>
       </div>
