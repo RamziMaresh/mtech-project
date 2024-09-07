@@ -12,7 +12,7 @@ import { tags } from "@/data/tags";
 import Content1 from "@/components/blog/content/Content1";
 import { menuItems,  } from "@/data/menu";
 import Footer5 from "@/components/footers/Footer5";
-import TableOne from "@/components/servicestable/tableone";
+import TableOne from "@/components/servicestable/Tableone";
 import TableTwo from "@/components/servicestable/TableTwo";
 
 
