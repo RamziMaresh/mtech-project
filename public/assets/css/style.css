@@ -10406,6 +10406,7 @@ a.link-to-top.color:before {
   margin-bottom: 37px;
   font-size: 20px;
 }
+
 .blog-item-body h1,
 .blog-item-body h2,
 .blog-item-body h3,
@@ -12687,4 +12688,32 @@ html:not(.mobile) .owl-animate-fadeInDown {
 }
 .works-grid.grid-intro-2 .work-item .work-descr {
   font-size: 16px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-top: -100px;
+}
+th,
+td {
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #000000;
+}
+th {
+  text-align: left;
+}
+thead th {
+  color: #fff;
+  background-color: #29173E;
+}
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+tbody td {
+  position: relative;
 }

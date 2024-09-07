@@ -1,22 +1,20 @@
-
 import dynamic from "next/dynamic";
-
 const ParallaxContainer = dynamic(
   () => import("@/components/common/ParallaxContainer"),
   {
     ssr: false, // Disable server-side rendering
   }
 );
-
 import Header1Multipage from "@/components/headers/Header1Multipage";
 import AnimatedText from "@/components/common/AnimatedText";
-
 import { categories } from "@/data/categories";
 import { tags } from "@/data/tags";
-
 import Content1 from "@/components/blog/content/Content1";
-import { menuItems } from "@/data/menu";
+import { menuItems,  } from "@/data/menu";
 import Footer5 from "@/components/footers/Footer5";
+import TableOne from "@/components/servicestable/tableone";
+import TableTwo from "@/components/servicestable/TableTwo";
+
 
 export const metadata = {
   title:
@@ -24,7 +22,8 @@ export const metadata = {
   description:
     "",
 };
-export default function MainBlogClassicPageFullWidth() {
+
+export default function ProjectHistory() {
   return (
     <>
       <div className="theme-main">
@@ -35,7 +34,7 @@ export default function MainBlogClassicPageFullWidth() {
           <main id="main">
             <section className="page-section pt-0 pb-0" id="home">
               <div
-                className="page-section bg-gray-light-1 bg-light-alpha-90 parallax-5"
+                className="page-section bg-gray-light-1 bg-light-alpha-80 parallax-5"
                 style={{
                   backgroundImage:
                     "url(/assets/images/full-width-images/section-bg-1.jpg)",
@@ -88,6 +87,42 @@ export default function MainBlogClassicPageFullWidth() {
               </section>
               */}
               {/* End Section */}
+
+
+                              {/* Section */}
+                              <section className="page-section">
+                    {/* Section */}
+                <div className="container relative">
+                  <div className="row">
+                    {/* Content */}
+                    <div className="">
+                      {/* Post */}
+                      <div className="blog-item mb-1 mb-xs-40">
+                        <div className="blog-im-body">
+
+                         <h4>CIVIL & CONSTRUCTION</h4>
+                          <hr />
+                          </div>
+                          </div>
+                          <TableOne/>
+
+
+                          <div className="blog-im-body">
+                          <h4>MECH & REPAIRING</h4>
+                          <hr />
+                          </div>
+                          </div>
+                          <TableTwo/>
+
+                          </div>
+                          
+                          </div>
+                          </section>
+
+
+
+
+
               {/* Divider */}
               <hr className="mt-0 mb-0" />
               {/* End Divider */}

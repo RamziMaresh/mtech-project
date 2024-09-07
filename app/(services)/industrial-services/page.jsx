@@ -12,6 +12,7 @@ import { menuItems } from "@/data/menu";
 import RelatedProject10 from "@/components/portfolio/relatedProjects/RelatedProject10";
 import Footer5 from "@/components/footers/Footer5";
 import Link from "next/link";
+import TableThree from "@/components/servicestable/TableThree";
 
 export const metadata = {
   title:
@@ -100,7 +101,7 @@ export default function IndustrialMechanicalServices() {
                     {/* Content */}
                     <div className="col-lg-8 offset-lg-2">
                       {/* Post */}
-                      <div className="blog-item mb-80 mb-xs-40">
+                      <div className="blog-item mb-0 mb-xs-40">
                         <div className="blog-item-body">
                           {/* Media Gallery */}
 
@@ -175,26 +176,21 @@ export default function IndustrialMechanicalServices() {
                           and local companies with qualified andskilled manpower whom able to achieve clients’exceptions.
                           <br/>
                           </p>
+                          <hr />
 
                           <h4>
                           Below are samples of categories that M-TECH supplyingand supporting its clients with:
                           </h4>
 
-
-                          <ul>
-                            <li>First item of the list</li>
-                            <li>Second item of the list</li>
-                            <li>Third item of the list</li>
-                          </ul>
-
                         </div>
+                        <TableThree />
+
                       </div>
                       </div>
                       <RelatedProject10 />
 
                       </div>
                       </div>
-
 </section>
 
               </>
