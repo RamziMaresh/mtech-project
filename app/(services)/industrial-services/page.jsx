@@ -11,7 +11,6 @@ import AnimatedText from "@/components/common/AnimatedText";
 import { menuItems } from "@/data/menu";
 import RelatedProject10 from "@/components/portfolio/relatedProjects/RelatedProject10";
 import Footer5 from "@/components/footers/Footer5";
-import Link from "next/link";
 import TableThree from "@/components/servicestable/TableThree";
 
 export const metadata = {
@@ -166,6 +165,7 @@ export default function IndustrialMechanicalServices() {
                           <br/>
                           </p>
                           <hr />
+                          <RelatedProject10 />
 
                           <h4>
                           Manpower Categories
@@ -187,7 +187,6 @@ export default function IndustrialMechanicalServices() {
 
                       </div>
                       </div>
-                      <RelatedProject10 />
 
                       </div>
                       </div>

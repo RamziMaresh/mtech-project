@@ -9,7 +9,7 @@ export default function RelatedProject10() {
     <div className="container relative">
 
       <Gallery>
-        <ul className="works-grid work-grid-4 work-grid-gut hover-white work-grid-hover-alt">
+        <ul className="works-grid work-grid-2 work-grid-gut hover-white work-grid-hover-alt">
           {portfolios13.slice(0, 4).map((item, index) => (
             <li key={index} className={"work-item   "}>
                 <a className={"work-ext-link"}>
