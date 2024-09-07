@@ -47,7 +47,7 @@ export default function Team() {
                         >
                           <span>Download Our Profile</span>
                         </Link>
-
+{/* 
                         <a
                     onClick={() => setOpen(true)}
                     className="link-hover-anim align-middle lightbox mfp-iframe ms-3 ms-sm-5 me-3 me-sm-5 mt-10"
@@ -55,6 +55,7 @@ export default function Team() {
                   >
                     <i className="icon-play size-13 me-1" /> How it works?
                   </a>
+                  */}
                       </div>
 
                       
