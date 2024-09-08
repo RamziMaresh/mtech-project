@@ -113,9 +113,10 @@ export default function Equipment() {
                           EQUIPMENTS RENTAL
                           </h4>
                         </div>
+                        <ImagesServicesThree />
+
                       </div>
                       </div>
-                      <ImagesServicesThree />
 
                       </div>
                       </div>
