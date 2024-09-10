@@ -7,14 +7,14 @@ const sections = [
   {
     bgImage: "/assets/images/full-width-images/section-bg-3.jpg",
     title: "AL MAWARED Advance Tech Co. LTD",
-    subtitle: "MTech provide the best quality services",
+    subtitle: "Mtech provide the best quality services",
     status: "Based in Khobar, Saudi Arabia.",
   },
 
   {
     bgImage: "/assets/images/full-width-images/section-bg-6.jpg",
     title: "AL MAWARED Advance Tech Co. LTD",
-    subtitle: "MTech provide the best quality services",
+    subtitle: "Mtech provide the best quality services",
     status: "Based in Khobar, Saudi Arabia.",
   },
 ];
